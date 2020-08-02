@@ -15,7 +15,7 @@
             <div class="col-md-6">
                 <div class="pin-generator half-width">
                     <input class="form-control" type="text" id="generateBtnDisplay">
-                    <button class="generate-btn" id="generateBtn">Generate Pin</button>
+                    <button class="generate-btn" id="generateBtn" >Generate Pin</button>
                 </div>
             </div>
             <div class="col-md-6">
@@ -45,15 +45,16 @@
                             </div>
                             <div>
                                 <button type="submit" class="submit-btn" id="submit-btn">Submit</button>
-                                <p class="action-left">3 try left</p>
+                                <p class="action-left" ><span id="action-left">3</span> try left</p>
                             </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="notify-section">
+                <div class="notify-section" id="notify">
                     <p class="notify" id="notifyFail">❌ Pin Didn't Match, Please try again</p>
                     <p class="notify" id="notifySuccess">✅ Pin Matched... Secret door is opening for you</p>
+                    <p class="notify" id="notifyZero">❌ You Didn't insert Any Pin </p>
                 </div>
             </div>
 </body>
