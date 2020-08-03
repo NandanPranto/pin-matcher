@@ -111,6 +111,7 @@ color: #E0B612;
 .notify-section{
     width: 35%;
     margin: 0 auto;
+   
 }
 .action-left {
     color: #FF3C5F;
@@ -129,3 +130,14 @@ color: #E0B612;
     text-align: center;
     color: #fff;
 }
+
+#timer
+{   padding: 10px;
+    height: 50px;
+    font-size: 25px;
+    text-align: center;
+    color: #fff;
+    background-color: #FF3C5F;
+    display: none;
+}
+
